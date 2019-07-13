@@ -15,6 +15,9 @@
 		5B4822F822D999BA0056991F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B4822F722D999BA0056991F /* Assets.xcassets */; };
 		5B4822FB22D999BA0056991F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B4822F922D999BA0056991F /* LaunchScreen.storyboard */; };
 		5B48230622D999BA0056991F /* OutPutKeeperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B48230522D999BA0056991F /* OutPutKeeperTests.swift */; };
+		5B48231222D9A1F80056991F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5B48231122D9A1F80056991F /* GoogleService-Info.plist */; };
+		5B48231522D9AB910056991F /* NSObjectProtcol+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B48231422D9AB910056991F /* NSObjectProtcol+Extensions.swift */; };
+		5B48231722D9ABEB0056991F /* Reusable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B48231622D9ABEB0056991F /* Reusable.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,6 +44,9 @@
 		5B48230122D999BA0056991F /* OutPutKeeperTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OutPutKeeperTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B48230522D999BA0056991F /* OutPutKeeperTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OutPutKeeperTests.swift; sourceTree = "<group>"; };
 		5B48230722D999BA0056991F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5B48231122D9A1F80056991F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		5B48231422D9AB910056991F /* NSObjectProtcol+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSObjectProtcol+Extensions.swift"; sourceTree = "<group>"; };
+		5B48231622D9ABEB0056991F /* Reusable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reusable.swift; sourceTree = "<group>"; };
 		DF86A226268D7420BB276D8A /* Pods-OutPutKeeper.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OutPutKeeper.debug.xcconfig"; path = "Target Support Files/Pods-OutPutKeeper/Pods-OutPutKeeper.debug.xcconfig"; sourceTree = "<group>"; };
 		E134EE4B3008C805AD6D7D44 /* Pods-OutPutKeeperTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OutPutKeeperTests.debug.xcconfig"; path = "Target Support Files/Pods-OutPutKeeperTests/Pods-OutPutKeeperTests.debug.xcconfig"; sourceTree = "<group>"; };
 		FECB5B3D7BDAD2E03EA5FD70 /* Pods_OutPutKeeperTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OutPutKeeperTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -109,11 +115,13 @@
 		5B4822EF22D999B80056991F /* OutPutKeeper */ = {
 			isa = PBXGroup;
 			children = (
+				5B48231322D9AB480056991F /* Utility */,
 				5B4822F022D999B80056991F /* AppDelegate.swift */,
 				5B4822F222D999B80056991F /* ViewController.swift */,
 				5B4822F422D999B80056991F /* Main.storyboard */,
 				5B4822F722D999BA0056991F /* Assets.xcassets */,
 				5B4822F922D999BA0056991F /* LaunchScreen.storyboard */,
+				5B48231122D9A1F80056991F /* GoogleService-Info.plist */,
 				5B4822FC22D999BA0056991F /* Info.plist */,
 			);
 			path = OutPutKeeper;
@@ -126,6 +134,15 @@
 				5B48230722D999BA0056991F /* Info.plist */,
 			);
 			path = OutPutKeeperTests;
+			sourceTree = "<group>";
+		};
+		5B48231322D9AB480056991F /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				5B48231422D9AB910056991F /* NSObjectProtcol+Extensions.swift */,
+				5B48231622D9ABEB0056991F /* Reusable.swift */,
+			);
+			path = Utility;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -215,6 +232,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5B4822FB22D999BA0056991F /* LaunchScreen.storyboard in Resources */,
+				5B48231222D9A1F80056991F /* GoogleService-Info.plist in Resources */,
 				5B4822F822D999BA0056991F /* Assets.xcassets in Resources */,
 				5B4822F622D999B80056991F /* Main.storyboard in Resources */,
 			);
@@ -333,8 +351,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5B48231722D9ABEB0056991F /* Reusable.swift in Sources */,
 				5B4822F322D999B80056991F /* ViewController.swift in Sources */,
 				5B4822F122D999B80056991F /* AppDelegate.swift in Sources */,
+				5B48231522D9AB910056991F /* NSObjectProtcol+Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -427,7 +447,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -482,7 +502,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -498,16 +518,18 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEVELOPMENT_TEAM = PGP7B8YQAS;
 				INFOPLIST_FILE = OutPutKeeper/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.IichiroKawashima.OutPutKeeper;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
+				PROVISIONING_PROFILE_SPECIFIER = "personal development provisioning Profiles";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -519,16 +541,17 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = PGP7B8YQAS;
 				INFOPLIST_FILE = OutPutKeeper/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.IichiroKawashima.OutPutKeeper;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
+				PROVISIONING_PROFILE_SPECIFIER = "personal development provisioning Profiles";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
