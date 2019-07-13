@@ -10,14 +10,15 @@
 		28DF5003B200B3C0199393FC /* Pods_OutPutKeeper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19BB379AE54CFCEAC0113A25 /* Pods_OutPutKeeper.framework */; };
 		5146493E0819C7BD4A140F35 /* Pods_OutPutKeeperTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FECB5B3D7BDAD2E03EA5FD70 /* Pods_OutPutKeeperTests.framework */; };
 		5B4822F122D999B80056991F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B4822F022D999B80056991F /* AppDelegate.swift */; };
-		5B4822F322D999B80056991F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B4822F222D999B80056991F /* ViewController.swift */; };
-		5B4822F622D999B80056991F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B4822F422D999B80056991F /* Main.storyboard */; };
+		5B4822F322D999B80056991F /* LaunchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B4822F222D999B80056991F /* LaunchViewController.swift */; };
+		5B4822F622D999B80056991F /* LaunchViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B4822F422D999B80056991F /* LaunchViewController.storyboard */; };
 		5B4822F822D999BA0056991F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B4822F722D999BA0056991F /* Assets.xcassets */; };
 		5B4822FB22D999BA0056991F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B4822F922D999BA0056991F /* LaunchScreen.storyboard */; };
 		5B48230622D999BA0056991F /* OutPutKeeperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B48230522D999BA0056991F /* OutPutKeeperTests.swift */; };
 		5B48231222D9A1F80056991F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5B48231122D9A1F80056991F /* GoogleService-Info.plist */; };
 		5B48231522D9AB910056991F /* NSObjectProtcol+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B48231422D9AB910056991F /* NSObjectProtcol+Extensions.swift */; };
-		5B48231722D9ABEB0056991F /* Reusable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B48231622D9ABEB0056991F /* Reusable.swift */; };
+		5B48231722D9ABEB0056991F /* Reusable+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B48231622D9ABEB0056991F /* Reusable+Extensions.swift */; };
+		5B48231B22D9B5D30056991F /* NavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B48231A22D9B5D30056991F /* NavigationController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,8 +37,8 @@
 		57CD814E1554AF92F60D3645 /* Pods-OutPutKeeperTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OutPutKeeperTests.release.xcconfig"; path = "Target Support Files/Pods-OutPutKeeperTests/Pods-OutPutKeeperTests.release.xcconfig"; sourceTree = "<group>"; };
 		5B4822ED22D999B80056991F /* OutPutKeeper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OutPutKeeper.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B4822F022D999B80056991F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		5B4822F222D999B80056991F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		5B4822F522D999B80056991F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5B4822F222D999B80056991F /* LaunchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchViewController.swift; sourceTree = "<group>"; };
+		5B4822F522D999B80056991F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchViewController.storyboard; sourceTree = "<group>"; };
 		5B4822F722D999BA0056991F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5B4822FA22D999BA0056991F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5B4822FC22D999BA0056991F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -46,7 +47,8 @@
 		5B48230722D999BA0056991F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5B48231122D9A1F80056991F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		5B48231422D9AB910056991F /* NSObjectProtcol+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSObjectProtcol+Extensions.swift"; sourceTree = "<group>"; };
-		5B48231622D9ABEB0056991F /* Reusable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reusable.swift; sourceTree = "<group>"; };
+		5B48231622D9ABEB0056991F /* Reusable+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Reusable+Extensions.swift"; sourceTree = "<group>"; };
+		5B48231A22D9B5D30056991F /* NavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationController.swift; sourceTree = "<group>"; };
 		DF86A226268D7420BB276D8A /* Pods-OutPutKeeper.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OutPutKeeper.debug.xcconfig"; path = "Target Support Files/Pods-OutPutKeeper/Pods-OutPutKeeper.debug.xcconfig"; sourceTree = "<group>"; };
 		E134EE4B3008C805AD6D7D44 /* Pods-OutPutKeeperTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OutPutKeeperTests.debug.xcconfig"; path = "Target Support Files/Pods-OutPutKeeperTests/Pods-OutPutKeeperTests.debug.xcconfig"; sourceTree = "<group>"; };
 		FECB5B3D7BDAD2E03EA5FD70 /* Pods_OutPutKeeperTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OutPutKeeperTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -115,10 +117,10 @@
 		5B4822EF22D999B80056991F /* OutPutKeeper */ = {
 			isa = PBXGroup;
 			children = (
+				5B48231C22D9BC520056991F /* Scenes */,
+				5B48231922D9B5920056991F /* Common */,
 				5B48231322D9AB480056991F /* Utility */,
 				5B4822F022D999B80056991F /* AppDelegate.swift */,
-				5B4822F222D999B80056991F /* ViewController.swift */,
-				5B4822F422D999B80056991F /* Main.storyboard */,
 				5B4822F722D999BA0056991F /* Assets.xcassets */,
 				5B4822F922D999BA0056991F /* LaunchScreen.storyboard */,
 				5B48231122D9A1F80056991F /* GoogleService-Info.plist */,
@@ -139,10 +141,43 @@
 		5B48231322D9AB480056991F /* Utility */ = {
 			isa = PBXGroup;
 			children = (
-				5B48231422D9AB910056991F /* NSObjectProtcol+Extensions.swift */,
-				5B48231622D9ABEB0056991F /* Reusable.swift */,
+				5B48231822D9B5550056991F /* Extensions */,
 			);
 			path = Utility;
+			sourceTree = "<group>";
+		};
+		5B48231822D9B5550056991F /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				5B48231422D9AB910056991F /* NSObjectProtcol+Extensions.swift */,
+				5B48231622D9ABEB0056991F /* Reusable+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		5B48231922D9B5920056991F /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				5B48231A22D9B5D30056991F /* NavigationController.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		5B48231C22D9BC520056991F /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				5B48231D22D9BC670056991F /* Launch */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		5B48231D22D9BC670056991F /* Launch */ = {
+			isa = PBXGroup;
+			children = (
+				5B4822F222D999B80056991F /* LaunchViewController.swift */,
+				5B4822F422D999B80056991F /* LaunchViewController.storyboard */,
+			);
+			path = Launch;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -234,7 +269,7 @@
 				5B4822FB22D999BA0056991F /* LaunchScreen.storyboard in Resources */,
 				5B48231222D9A1F80056991F /* GoogleService-Info.plist in Resources */,
 				5B4822F822D999BA0056991F /* Assets.xcassets in Resources */,
-				5B4822F622D999B80056991F /* Main.storyboard in Resources */,
+				5B4822F622D999B80056991F /* LaunchViewController.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -351,8 +386,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5B48231722D9ABEB0056991F /* Reusable.swift in Sources */,
-				5B4822F322D999B80056991F /* ViewController.swift in Sources */,
+				5B48231722D9ABEB0056991F /* Reusable+Extensions.swift in Sources */,
+				5B4822F322D999B80056991F /* LaunchViewController.swift in Sources */,
+				5B48231B22D9B5D30056991F /* NavigationController.swift in Sources */,
 				5B4822F122D999B80056991F /* AppDelegate.swift in Sources */,
 				5B48231522D9AB910056991F /* NSObjectProtcol+Extensions.swift in Sources */,
 			);
@@ -377,12 +413,12 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		5B4822F422D999B80056991F /* Main.storyboard */ = {
+		5B4822F422D999B80056991F /* LaunchViewController.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				5B4822F522D999B80056991F /* Base */,
 			);
-			name = Main.storyboard;
+			name = LaunchViewController.storyboard;
 			sourceTree = "<group>";
 		};
 		5B4822F922D999BA0056991F /* LaunchScreen.storyboard */ = {
@@ -428,7 +464,8 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Iichiro Kawashima (C2BG5T25U6)";
+				CODE_SIGN_STYLE = Manual;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -489,7 +526,8 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Iichiro Kawashima (C2BG5T25U6)";
+				CODE_SIGN_STYLE = Manual;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
@@ -517,7 +555,7 @@
 			baseConfigurationReference = DF86A226268D7420BB276D8A /* Pods-OutPutKeeper.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Iichiro Kawashima (C2BG5T25U6)";
 				CODE_SIGN_STYLE = Manual;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEVELOPMENT_TEAM = PGP7B8YQAS;
@@ -540,7 +578,7 @@
 			baseConfigurationReference = 51592BA0EDA21497724712A7 /* Pods-OutPutKeeper.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Iichiro Kawashima (C2BG5T25U6)";
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = PGP7B8YQAS;
 				INFOPLIST_FILE = OutPutKeeper/Info.plist;
