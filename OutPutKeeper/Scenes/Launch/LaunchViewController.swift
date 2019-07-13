@@ -10,6 +10,14 @@ final class LaunchViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+    }
+
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+
+        let vc = UIStoryboard(name: LoginViewController.className, bundle: nil).instantiateViewController(withIdentifier: LoginViewController.className)
+        let nc = UINavigationController(rootViewController: vc)
+        self.present(nc, animated: true)
 
     }
 }
