@@ -10,6 +10,7 @@ import RxSwift
 import RxCocoa
 
 protocol LoginViewModelInputs {
+    // TODO: AnyObserberに変更して外部公開
     var emailText: PublishRelay<String> { get }
     var passwordText: PublishRelay<String> { get }
 }
@@ -18,20 +19,16 @@ protocol LoginViewModelOutputs {
     var valid: Observable<Bool> { get }
 }
 
-protocol LoginViewModelType {
-    var inputs: LoginViewModelInputs { get }
-    var outputs: LoginViewModelOutputs { get }
-}
-
 final class LoginViewModel: LoginViewModelOutputs, LoginViewModelInputs {
 
+    // Input
     let emailText = PublishRelay<String>()
     let passwordText = PublishRelay<String>()
 
-    var valid: Observable<Bool>
+    // Output
+    let valid: Observable<Bool>
 
     init() {
-
         let emailValid: Observable<Bool> = emailText
             .map {
                 return !$0.isEmpty
@@ -44,6 +41,11 @@ final class LoginViewModel: LoginViewModelOutputs, LoginViewModelInputs {
 
         valid = Observable.combineLatest(emailValid, passwordValid) { $0 && $1 }
     }
+}
+
+protocol LoginViewModelType {
+    var inputs: LoginViewModelInputs { get }
+    var outputs: LoginViewModelOutputs { get }
 }
 
 extension LoginViewModel: LoginViewModelType {
