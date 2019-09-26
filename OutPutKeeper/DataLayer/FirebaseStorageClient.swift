@@ -8,6 +8,7 @@
 
 import Foundation
 import FirebaseStorage
+import UIKit
 
 enum UploadResult<URL> {
     case success(URL)
