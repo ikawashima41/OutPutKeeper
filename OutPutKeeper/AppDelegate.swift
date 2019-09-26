@@ -6,8 +6,13 @@
 //  Copyright © 2019 Iichiro Kawashima. All rights reserved.
 //
 
+/* Google Map API key
+ AIzaSyBjRv2JuwcGBosistRWPE2v13EKwDY8N0g
+ */
+
 import UIKit
 import Firebase
+import GoogleMaps
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -17,7 +22,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+
         FirebaseApp.configure()
+
+        GMSServices.provideAPIKey("AIzaSyBjRv2JuwcGBosistRWPE2v13EKwDY8N0g")
+        
         let vc = LoginViewController.createInstance()
         window = UIWindow(frame: UIScreen.main.bounds)
         window?.rootViewController = vc
