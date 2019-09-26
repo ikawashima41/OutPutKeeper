@@ -1,0 +1,66 @@
+# This file contains the fastlane.tools configuration
+# You can find the documentation at https://docs.fastlane.tools
+#
+# For a list of all available actions, check out
+#
+#     https://docs.fastlane.tools/actions
+#
+# For a list of all available plugins, check out
+#
+#     https://docs.fastlane.tools/plugins/available-plugins
+#
+
+# Uncomment the line if you want fastlane to automatically update itself
+# update_fastlane
+
+default_platform(:ios)
+
+platform :ios do
+
+  before_all do
+    slack(
+      slack_url: "https://hooks.slack.com/services/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"
+    )
+  end
+
+  desc "Send Notice Slack"
+  lane :beta  do
+    # add actions here: https://docs.fastlane.tools/actions
+    gym(
+      configuration: "Debug",
+      scheme: "OutPutKeeper",
+      export_method: "development",
+      output_directory: "./build/ipa/" + Time.new.strftime("%Y/%m/%d/%H%M"),
+      output_name: "OutPutKeeper.ipa",
+      include_bitcode: false,
+      export_options: {
+        compileBitcode: false,
+        uploadBitcode: false
+      }
+    )
+    deploygate(
+        api_token: "28d444d5bd8c2bc34db0eba85896f2b53a907c85",
+        user: "ikawashima41",
+        message: "Build #{lane_context[SharedValues::BUILD_NUMBER]}",
+    )
+
+    # FirebaseにdSYMをアップロード
+     upload_symbols_to_crashlytics(gsp_path: "../OutPutKeeper/OutPutKeeper/GoogleService-Info.plist")
+
+    # Delete the local dSYM files
+     clean_build_artifacts
+  end
+
+  after_all do
+    slack(
+      message: "OutputKeeperをデプロイしました。"
+    )
+  end
+
+  error do |lane, exception|
+     slack(
+       message: exception.message,
+       success: false
+     )
+  end
+end
