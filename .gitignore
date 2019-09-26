@@ -10,6 +10,11 @@
 build/
 DerivedData/
 
+## GoogleMaps
+GoogleMapsBase.framework
+GoogleMaps.framework
+GoogleMapsCore.framework
+
 ## Various settings
 *.pbxuser
 !default.pbxuser
