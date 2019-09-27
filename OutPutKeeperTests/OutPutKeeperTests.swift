@@ -2,11 +2,12 @@
 //  OutPutKeeperTests.swift
 //  OutPutKeeperTests
 //
-//  Created by Iichiro Kawashima on 2019/07/13.
+//  Created by Iichiro Kawashima on 2019/09/27.
 //  Copyright © 2019 Iichiro Kawashima. All rights reserved.
 //
 
 import XCTest
+
 @testable import OutPutKeeper
 
 class OutPutKeeperTests: XCTestCase {

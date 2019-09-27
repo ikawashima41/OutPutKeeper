@@ -32,7 +32,7 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "5B48230022D999BA0056991F"
+               BlueprintIdentifier = "5B8D2E5C233D54FC0010D5C2"
                BuildableName = "OutPutKeeperTests.xctest"
                BlueprintName = "OutPutKeeperTests"
                ReferencedContainer = "container:OutPutKeeper.xcodeproj">
@@ -71,6 +71,12 @@
             ReferencedContainer = "container:OutPutKeeper.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
+      <CommandLineArguments>
+         <CommandLineArgument
+            argument = "-FIRDebugEnabled"
+            isEnabled = "YES">
+         </CommandLineArgument>
+      </CommandLineArguments>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>

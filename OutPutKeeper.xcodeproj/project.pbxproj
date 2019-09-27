@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5B088B5F233D24910064E994 /* GoogleMaps.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B088B5E233D24910064E994 /* GoogleMaps.framework */; };
-		5B088B61233D24A10064E994 /* GoogleMapsCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B088B60233D24A10064E994 /* GoogleMapsCore.framework */; };
 		5B2D6B37233D177400588F14 /* Nimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B2D6B13233D177300588F14 /* Nimble.framework */; };
 		5B2D6B38233D177400588F14 /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B2D6B14233D177300588F14 /* RxSwift.framework */; };
 		5B2D6B39233D177400588F14 /* FirebaseInstanceID.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B2D6B15233D177300588F14 /* FirebaseInstanceID.framework */; };
@@ -22,7 +20,6 @@
 		5B2D6B41233D177400588F14 /* leveldb-library.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B2D6B1D233D177300588F14 /* leveldb-library.framework */; };
 		5B2D6B42233D177400588F14 /* GoogleDataTransportCCTSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B2D6B1E233D177300588F14 /* GoogleDataTransportCCTSupport.framework */; };
 		5B2D6B43233D177400588F14 /* GTMSessionFetcher.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B2D6B1F233D177400588F14 /* GTMSessionFetcher.framework */; };
-		5B2D6B44233D177500588F14 /* FirebaseMessaging.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B2D6B20233D177400588F14 /* FirebaseMessaging.framework */; };
 		5B2D6B45233D177500588F14 /* Quick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B2D6B21233D177400588F14 /* Quick.framework */; };
 		5B2D6B46233D177500588F14 /* RxRelay.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B2D6B22233D177400588F14 /* RxRelay.framework */; };
 		5B2D6B47233D177500588F14 /* AppAuth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B2D6B23233D177400588F14 /* AppAuth.framework */; };
@@ -32,11 +29,8 @@
 		5B2D6B4B233D177500588F14 /* RxCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B2D6B27233D177400588F14 /* RxCocoa.framework */; };
 		5B2D6B4C233D177500588F14 /* FIRAnalyticsConnector.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B2D6B28233D177400588F14 /* FIRAnalyticsConnector.framework */; };
 		5B2D6B4D233D177500588F14 /* FirebaseCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B2D6B29233D177400588F14 /* FirebaseCore.framework */; };
-		5B2D6B4E233D177500588F14 /* GoogleSignIn.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B2D6B2A233D177400588F14 /* GoogleSignIn.framework */; };
 		5B2D6B4F233D177500588F14 /* GoogleUtilities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B2D6B2B233D177400588F14 /* GoogleUtilities.framework */; };
-		5B2D6B50233D177500588F14 /* FirebaseInAppMessagingDisplay.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B2D6B2C233D177400588F14 /* FirebaseInAppMessagingDisplay.framework */; };
 		5B2D6B51233D177500588F14 /* FirebaseDatabase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B2D6B2D233D177400588F14 /* FirebaseDatabase.framework */; };
-		5B2D6B52233D177500588F14 /* FirebaseInAppMessaging.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B2D6B2E233D177400588F14 /* FirebaseInAppMessaging.framework */; };
 		5B2D6B53233D177500588F14 /* FirebaseCoreDiagnostics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B2D6B2F233D177400588F14 /* FirebaseCoreDiagnostics.framework */; };
 		5B2D6B54233D177500588F14 /* FirebaseAnalytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B2D6B30233D177400588F14 /* FirebaseAnalytics.framework */; };
 		5B2D6B55233D177500588F14 /* BoringSSL-GRPC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B2D6B31233D177400588F14 /* BoringSSL-GRPC.framework */; };
@@ -60,8 +54,6 @@
 		5B2D6B80233D222800588F14 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B2D6B7F233D222800588F14 /* QuartzCore.framework */; };
 		5B2D6B82233D223100588F14 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B2D6B81233D223100588F14 /* SystemConfiguration.framework */; };
 		5B2D6B84233D223A00588F14 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B2D6B83233D223A00588F14 /* UIKit.framework */; };
-		5B2D6B86233D237700588F14 /* GoogleMaps.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 5B2D6B85233D237700588F14 /* GoogleMaps.bundle */; };
-		5B2D6B88233D242400588F14 /* GoogleMapsBase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B2D6B87233D242400588F14 /* GoogleMapsBase.framework */; };
 		5B423473231B96DD00764D13 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B423472231B96DD00764D13 /* MapViewController.swift */; };
 		5B423475231B96F400764D13 /* MapViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B423474231B96F400764D13 /* MapViewModel.swift */; };
 		5B423477231B9DF500764D13 /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B423476231B9DF500764D13 /* APIClient.swift */; };
@@ -79,7 +71,6 @@
 		5B4822F622D999B80056991F /* LaunchViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B4822F422D999B80056991F /* LaunchViewController.storyboard */; };
 		5B4822F822D999BA0056991F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B4822F722D999BA0056991F /* Assets.xcassets */; };
 		5B4822FB22D999BA0056991F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B4822F922D999BA0056991F /* LaunchScreen.storyboard */; };
-		5B48230622D999BA0056991F /* OutPutKeeperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B48230522D999BA0056991F /* OutPutKeeperTests.swift */; };
 		5B48231222D9A1F80056991F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5B48231122D9A1F80056991F /* GoogleService-Info.plist */; };
 		5B48231522D9AB910056991F /* NSObjectProtcol+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B48231422D9AB910056991F /* NSObjectProtcol+Extensions.swift */; };
 		5B48231722D9ABEB0056991F /* Reusable+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B48231622D9ABEB0056991F /* Reusable+Extensions.swift */; };
@@ -98,11 +89,15 @@
 		5B48233922DB44970056991F /* FirebaseStorageClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B48233822DB44970056991F /* FirebaseStorageClient.swift */; };
 		5B48233B22DB9B610056991F /* UIAlertController+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B48233A22DB9B610056991F /* UIAlertController+Extensions.swift */; };
 		5B48233D22DBDB210056991F /* CameraManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B48233C22DBDB210056991F /* CameraManager.swift */; };
+		5B8D2E75233D88490010D5C2 /* GoogleMapsBase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B8D2E74233D88490010D5C2 /* GoogleMapsBase.framework */; };
+		5B8D2E77233D88550010D5C2 /* GoogleMaps.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B8D2E76233D88550010D5C2 /* GoogleMaps.framework */; };
+		5B8D2E79233D88630010D5C2 /* GoogleMapsCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B8D2E78233D88630010D5C2 /* GoogleMapsCore.framework */; };
+		5B8D2E81233D89760010D5C2 /* OutPutKeeperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B8D2E80233D89760010D5C2 /* OutPutKeeperTests.swift */; };
 		5BD44E4F233712DE003B4024 /* StoryBoardIdentifible.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BD44E4E233712DE003B4024 /* StoryBoardIdentifible.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		5B48230222D999BA0056991F /* PBXContainerItemProxy */ = {
+		5B8D2E83233D89760010D5C2 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 5B4822E522D999B80056991F /* Project object */;
 			proxyType = 1;
@@ -112,8 +107,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		5B088B5E233D24910064E994 /* GoogleMaps.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMaps.framework; path = OutPutKeeper/GoogleMaps.framework; sourceTree = "<group>"; };
-		5B088B60233D24A10064E994 /* GoogleMapsCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMapsCore.framework; path = OutPutKeeper/GoogleMapsCore.framework; sourceTree = "<group>"; };
 		5B2D6B13233D177300588F14 /* Nimble.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Nimble.framework; path = Carthage/Build/iOS/Nimble.framework; sourceTree = "<group>"; };
 		5B2D6B14233D177300588F14 /* RxSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxSwift.framework; path = Carthage/Build/iOS/RxSwift.framework; sourceTree = "<group>"; };
 		5B2D6B15233D177300588F14 /* FirebaseInstanceID.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseInstanceID.framework; path = Carthage/Build/iOS/FirebaseInstanceID.framework; sourceTree = "<group>"; };
@@ -127,7 +120,6 @@
 		5B2D6B1D233D177300588F14 /* leveldb-library.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "leveldb-library.framework"; path = "Carthage/Build/iOS/leveldb-library.framework"; sourceTree = "<group>"; };
 		5B2D6B1E233D177300588F14 /* GoogleDataTransportCCTSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleDataTransportCCTSupport.framework; path = Carthage/Build/iOS/GoogleDataTransportCCTSupport.framework; sourceTree = "<group>"; };
 		5B2D6B1F233D177400588F14 /* GTMSessionFetcher.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GTMSessionFetcher.framework; path = Carthage/Build/iOS/GTMSessionFetcher.framework; sourceTree = "<group>"; };
-		5B2D6B20233D177400588F14 /* FirebaseMessaging.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseMessaging.framework; path = Carthage/Build/iOS/FirebaseMessaging.framework; sourceTree = "<group>"; };
 		5B2D6B21233D177400588F14 /* Quick.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quick.framework; path = Carthage/Build/iOS/Quick.framework; sourceTree = "<group>"; };
 		5B2D6B22233D177400588F14 /* RxRelay.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxRelay.framework; path = Carthage/Build/iOS/RxRelay.framework; sourceTree = "<group>"; };
 		5B2D6B23233D177400588F14 /* AppAuth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppAuth.framework; path = Carthage/Build/iOS/AppAuth.framework; sourceTree = "<group>"; };
@@ -137,9 +129,7 @@
 		5B2D6B27233D177400588F14 /* RxCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxCocoa.framework; path = Carthage/Build/iOS/RxCocoa.framework; sourceTree = "<group>"; };
 		5B2D6B28233D177400588F14 /* FIRAnalyticsConnector.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FIRAnalyticsConnector.framework; path = Carthage/Build/iOS/FIRAnalyticsConnector.framework; sourceTree = "<group>"; };
 		5B2D6B29233D177400588F14 /* FirebaseCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseCore.framework; path = Carthage/Build/iOS/FirebaseCore.framework; sourceTree = "<group>"; };
-		5B2D6B2A233D177400588F14 /* GoogleSignIn.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleSignIn.framework; path = Carthage/Build/iOS/GoogleSignIn.framework; sourceTree = "<group>"; };
 		5B2D6B2B233D177400588F14 /* GoogleUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleUtilities.framework; path = Carthage/Build/iOS/GoogleUtilities.framework; sourceTree = "<group>"; };
-		5B2D6B2C233D177400588F14 /* FirebaseInAppMessagingDisplay.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseInAppMessagingDisplay.framework; path = Carthage/Build/iOS/FirebaseInAppMessagingDisplay.framework; sourceTree = "<group>"; };
 		5B2D6B2D233D177400588F14 /* FirebaseDatabase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseDatabase.framework; path = Carthage/Build/iOS/FirebaseDatabase.framework; sourceTree = "<group>"; };
 		5B2D6B2E233D177400588F14 /* FirebaseInAppMessaging.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseInAppMessaging.framework; path = Carthage/Build/iOS/FirebaseInAppMessaging.framework; sourceTree = "<group>"; };
 		5B2D6B2F233D177400588F14 /* FirebaseCoreDiagnostics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseCoreDiagnostics.framework; path = Carthage/Build/iOS/FirebaseCoreDiagnostics.framework; sourceTree = "<group>"; };
@@ -150,12 +140,8 @@
 		5B2D6B34233D177400588F14 /* Protobuf.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Protobuf.framework; path = Carthage/Build/iOS/Protobuf.framework; sourceTree = "<group>"; };
 		5B2D6B35233D177400588F14 /* FirebaseFunctions.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseFunctions.framework; path = Carthage/Build/iOS/FirebaseFunctions.framework; sourceTree = "<group>"; };
 		5B2D6B36233D177400588F14 /* MBProgressHUD.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MBProgressHUD.framework; path = Carthage/Build/iOS/MBProgressHUD.framework; sourceTree = "<group>"; };
-		5B2D6B5B233D195000588F14 /* GoogleMapsBase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMapsBase.framework; sourceTree = "<group>"; };
-		5B2D6B5D233D195C00588F14 /* GoogleMaps.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMaps.framework; sourceTree = "<group>"; };
-		5B2D6B5F233D196500588F14 /* GoogleMapsCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMapsCore.framework; sourceTree = "<group>"; };
 		5B2D6B63233D1BE900588F14 /* input.xcfilelist */ = {isa = PBXFileReference; lastKnownFileType = text.xcfilelist; path = input.xcfilelist; sourceTree = "<group>"; };
 		5B2D6B64233D1BF800588F14 /* output.xcfilelist */ = {isa = PBXFileReference; lastKnownFileType = text.xcfilelist; path = output.xcfilelist; sourceTree = "<group>"; };
-		5B2D6B65233D1D1500588F14 /* GoogleMapsBase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMapsBase.framework; path = "../../Downloads/GoogleMaps-3.4.0/Base/Frameworks/GoogleMapsBase.framework"; sourceTree = "<group>"; };
 		5B2D6B67233D20FC00588F14 /* FirebaseStorage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseStorage.framework; path = Carthage/Build/iOS/FirebaseStorage.framework; sourceTree = "<group>"; };
 		5B2D6B69233D218800588F14 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
 		5B2D6B6B233D219500588F14 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
@@ -172,7 +158,6 @@
 		5B2D6B81233D223100588F14 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		5B2D6B83233D223A00588F14 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		5B2D6B85233D237700588F14 /* GoogleMaps.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = GoogleMaps.bundle; path = "../../../Downloads/GoogleMaps-3.4.0/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle"; sourceTree = "<group>"; };
-		5B2D6B87233D242400588F14 /* GoogleMapsBase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMapsBase.framework; sourceTree = "<group>"; };
 		5B423472231B96DD00764D13 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		5B423474231B96F400764D13 /* MapViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewModel.swift; sourceTree = "<group>"; };
 		5B423476231B9DF500764D13 /* APIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
@@ -192,9 +177,6 @@
 		5B4822F722D999BA0056991F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5B4822FA22D999BA0056991F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5B4822FC22D999BA0056991F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5B48230122D999BA0056991F /* OutPutKeeperTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OutPutKeeperTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		5B48230522D999BA0056991F /* OutPutKeeperTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OutPutKeeperTests.swift; sourceTree = "<group>"; };
-		5B48230722D999BA0056991F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5B48231122D9A1F80056991F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		5B48231422D9AB910056991F /* NSObjectProtcol+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSObjectProtcol+Extensions.swift"; sourceTree = "<group>"; };
 		5B48231622D9ABEB0056991F /* Reusable+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Reusable+Extensions.swift"; sourceTree = "<group>"; };
@@ -213,6 +195,12 @@
 		5B48233822DB44970056991F /* FirebaseStorageClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseStorageClient.swift; sourceTree = "<group>"; };
 		5B48233A22DB9B610056991F /* UIAlertController+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIAlertController+Extensions.swift"; sourceTree = "<group>"; };
 		5B48233C22DBDB210056991F /* CameraManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraManager.swift; sourceTree = "<group>"; };
+		5B8D2E74233D88490010D5C2 /* GoogleMapsBase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMapsBase.framework; sourceTree = "<group>"; };
+		5B8D2E76233D88550010D5C2 /* GoogleMaps.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMaps.framework; sourceTree = "<group>"; };
+		5B8D2E78233D88630010D5C2 /* GoogleMapsCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMapsCore.framework; sourceTree = "<group>"; };
+		5B8D2E7E233D89760010D5C2 /* OutPutKeeperTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OutPutKeeperTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B8D2E80233D89760010D5C2 /* OutPutKeeperTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OutPutKeeperTests.swift; sourceTree = "<group>"; };
+		5B8D2E82233D89760010D5C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5BD44E4E233712DE003B4024 /* StoryBoardIdentifible.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryBoardIdentifible.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -224,6 +212,7 @@
 				5B2D6B84233D223A00588F14 /* UIKit.framework in Frameworks */,
 				5B2D6B82233D223100588F14 /* SystemConfiguration.framework in Frameworks */,
 				5B2D6B80233D222800588F14 /* QuartzCore.framework in Frameworks */,
+				5B8D2E75233D88490010D5C2 /* GoogleMapsBase.framework in Frameworks */,
 				5B2D6B7E233D221900588F14 /* OpenGLES.framework in Frameworks */,
 				5B2D6B7C233D220D00588F14 /* libz.tbd in Frameworks */,
 				5B2D6B7A233D21FF00588F14 /* libc++.tbd in Frameworks */,
@@ -235,14 +224,15 @@
 				5B2D6B6E233D21A100588F14 /* CoreGraphics.framework in Frameworks */,
 				5B2D6B6C233D219500588F14 /* CoreData.framework in Frameworks */,
 				5B2D6B6A233D218800588F14 /* Accelerate.framework in Frameworks */,
-				5B088B5F233D24910064E994 /* GoogleMaps.framework in Frameworks */,
 				5B2D6B68233D20FC00588F14 /* FirebaseStorage.framework in Frameworks */,
 				5B2D6B37233D177400588F14 /* Nimble.framework in Frameworks */,
 				5B2D6B38233D177400588F14 /* RxSwift.framework in Frameworks */,
 				5B2D6B39233D177400588F14 /* FirebaseInstanceID.framework in Frameworks */,
+				5B8D2E77233D88550010D5C2 /* GoogleMaps.framework in Frameworks */,
 				5B2D6B3A233D177400588F14 /* nanopb.framework in Frameworks */,
 				5B2D6B3B233D177400588F14 /* gRPC-Core.framework in Frameworks */,
 				5B2D6B3C233D177400588F14 /* gRPC-C++.framework in Frameworks */,
+				5B8D2E79233D88630010D5C2 /* GoogleMapsCore.framework in Frameworks */,
 				5B2D6B3D233D177400588F14 /* Lottie.framework in Frameworks */,
 				5B2D6B3E233D177400588F14 /* GTMAppAuth.framework in Frameworks */,
 				5B2D6B3F233D177400588F14 /* Firebase.framework in Frameworks */,
@@ -250,7 +240,6 @@
 				5B2D6B41233D177400588F14 /* leveldb-library.framework in Frameworks */,
 				5B2D6B42233D177400588F14 /* GoogleDataTransportCCTSupport.framework in Frameworks */,
 				5B2D6B43233D177400588F14 /* GTMSessionFetcher.framework in Frameworks */,
-				5B2D6B44233D177500588F14 /* FirebaseMessaging.framework in Frameworks */,
 				5B2D6B45233D177500588F14 /* Quick.framework in Frameworks */,
 				5B2D6B46233D177500588F14 /* RxRelay.framework in Frameworks */,
 				5B2D6B47233D177500588F14 /* AppAuth.framework in Frameworks */,
@@ -260,25 +249,20 @@
 				5B2D6B4B233D177500588F14 /* RxCocoa.framework in Frameworks */,
 				5B2D6B4C233D177500588F14 /* FIRAnalyticsConnector.framework in Frameworks */,
 				5B2D6B4D233D177500588F14 /* FirebaseCore.framework in Frameworks */,
-				5B2D6B4E233D177500588F14 /* GoogleSignIn.framework in Frameworks */,
 				5B2D6B4F233D177500588F14 /* GoogleUtilities.framework in Frameworks */,
-				5B2D6B50233D177500588F14 /* FirebaseInAppMessagingDisplay.framework in Frameworks */,
 				5B2D6B51233D177500588F14 /* FirebaseDatabase.framework in Frameworks */,
-				5B088B61233D24A10064E994 /* GoogleMapsCore.framework in Frameworks */,
-				5B2D6B52233D177500588F14 /* FirebaseInAppMessaging.framework in Frameworks */,
 				5B2D6B53233D177500588F14 /* FirebaseCoreDiagnostics.framework in Frameworks */,
 				5B2D6B54233D177500588F14 /* FirebaseAnalytics.framework in Frameworks */,
 				5B2D6B55233D177500588F14 /* BoringSSL-GRPC.framework in Frameworks */,
 				5B2D6B56233D177500588F14 /* FirebaseAuth.framework in Frameworks */,
 				5B2D6B57233D177500588F14 /* Nuke.framework in Frameworks */,
 				5B2D6B58233D177500588F14 /* Protobuf.framework in Frameworks */,
-				5B2D6B88233D242400588F14 /* GoogleMapsBase.framework in Frameworks */,
 				5B2D6B59233D177500588F14 /* FirebaseFunctions.framework in Frameworks */,
 				5B2D6B5A233D177500588F14 /* MBProgressHUD.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5B4822FE22D999BA0056991F /* Frameworks */ = {
+		5B8D2E7B233D89760010D5C2 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -291,9 +275,9 @@
 		1998927E1E3B3352ACF98F7A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				5B088B60233D24A10064E994 /* GoogleMapsCore.framework */,
-				5B088B5E233D24910064E994 /* GoogleMaps.framework */,
-				5B2D6B87233D242400588F14 /* GoogleMapsBase.framework */,
+				5B8D2E74233D88490010D5C2 /* GoogleMapsBase.framework */,
+				5B8D2E76233D88550010D5C2 /* GoogleMaps.framework */,
+				5B8D2E78233D88630010D5C2 /* GoogleMapsCore.framework */,
 				5B2D6B83233D223A00588F14 /* UIKit.framework */,
 				5B2D6B81233D223100588F14 /* SystemConfiguration.framework */,
 				5B2D6B7F233D222800588F14 /* QuartzCore.framework */,
@@ -309,10 +293,6 @@
 				5B2D6B6B233D219500588F14 /* CoreData.framework */,
 				5B2D6B69233D218800588F14 /* Accelerate.framework */,
 				5B2D6B67233D20FC00588F14 /* FirebaseStorage.framework */,
-				5B2D6B65233D1D1500588F14 /* GoogleMapsBase.framework */,
-				5B2D6B5F233D196500588F14 /* GoogleMapsCore.framework */,
-				5B2D6B5D233D195C00588F14 /* GoogleMaps.framework */,
-				5B2D6B5B233D195000588F14 /* GoogleMapsBase.framework */,
 				5B2D6B23233D177400588F14 /* AppAuth.framework */,
 				5B2D6B31233D177400588F14 /* BoringSSL-GRPC.framework */,
 				5B2D6B28233D177400588F14 /* FIRAnalyticsConnector.framework */,
@@ -326,13 +306,10 @@
 				5B2D6B24233D177400588F14 /* FirebaseFirestore.framework */,
 				5B2D6B35233D177400588F14 /* FirebaseFunctions.framework */,
 				5B2D6B2E233D177400588F14 /* FirebaseInAppMessaging.framework */,
-				5B2D6B2C233D177400588F14 /* FirebaseInAppMessagingDisplay.framework */,
 				5B2D6B15233D177300588F14 /* FirebaseInstanceID.framework */,
-				5B2D6B20233D177400588F14 /* FirebaseMessaging.framework */,
 				5B2D6B1C233D177300588F14 /* GoogleAppMeasurement.framework */,
 				5B2D6B26233D177400588F14 /* GoogleDataTransport.framework */,
 				5B2D6B1E233D177300588F14 /* GoogleDataTransportCCTSupport.framework */,
-				5B2D6B2A233D177400588F14 /* GoogleSignIn.framework */,
 				5B2D6B2B233D177400588F14 /* GoogleUtilities.framework */,
 				5B2D6B18233D177300588F14 /* gRPC-C++.framework */,
 				5B2D6B17233D177300588F14 /* gRPC-Core.framework */,
@@ -434,7 +411,7 @@
 				5B2D6B63233D1BE900588F14 /* input.xcfilelist */,
 				5B2D6B64233D1BF800588F14 /* output.xcfilelist */,
 				5B4822EF22D999B80056991F /* OutPutKeeper */,
-				5B48230422D999BA0056991F /* OutPutKeeperTests */,
+				5B8D2E7F233D89760010D5C2 /* OutPutKeeperTests */,
 				5B4822EE22D999B80056991F /* Products */,
 				1998927E1E3B3352ACF98F7A /* Frameworks */,
 			);
@@ -444,7 +421,7 @@
 			isa = PBXGroup;
 			children = (
 				5B4822ED22D999B80056991F /* OutPutKeeper.app */,
-				5B48230122D999BA0056991F /* OutPutKeeperTests.xctest */,
+				5B8D2E7E233D89760010D5C2 /* OutPutKeeperTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -465,15 +442,6 @@
 				5B2D6B85233D237700588F14 /* GoogleMaps.bundle */,
 			);
 			path = OutPutKeeper;
-			sourceTree = "<group>";
-		};
-		5B48230422D999BA0056991F /* OutPutKeeperTests */ = {
-			isa = PBXGroup;
-			children = (
-				5B48230522D999BA0056991F /* OutPutKeeperTests.swift */,
-				5B48230722D999BA0056991F /* Info.plist */,
-			);
-			path = OutPutKeeperTests;
 			sourceTree = "<group>";
 		};
 		5B48231322D9AB480056991F /* Utility */ = {
@@ -556,6 +524,15 @@
 			path = Profile;
 			sourceTree = "<group>";
 		};
+		5B8D2E7F233D89760010D5C2 /* OutPutKeeperTests */ = {
+			isa = PBXGroup;
+			children = (
+				5B8D2E80233D89760010D5C2 /* OutPutKeeperTests.swift */,
+				5B8D2E82233D89760010D5C2 /* Info.plist */,
+			);
+			path = OutPutKeeperTests;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -578,24 +555,22 @@
 			productReference = 5B4822ED22D999B80056991F /* OutPutKeeper.app */;
 			productType = "com.apple.product-type.application";
 		};
-		5B48230022D999BA0056991F /* OutPutKeeperTests */ = {
+		5B8D2E7D233D89760010D5C2 /* OutPutKeeperTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5B48230D22D999BA0056991F /* Build configuration list for PBXNativeTarget "OutPutKeeperTests" */;
+			buildConfigurationList = 5B8D2E85233D89760010D5C2 /* Build configuration list for PBXNativeTarget "OutPutKeeperTests" */;
 			buildPhases = (
-				54248798A5EB962A2DD662E6 /* [CP] Check Pods Manifest.lock */,
-				5B4822FD22D999BA0056991F /* Sources */,
-				5B4822FE22D999BA0056991F /* Frameworks */,
-				5B4822FF22D999BA0056991F /* Resources */,
-				B46D57AD8F640BE3581FF058 /* [CP] Embed Pods Frameworks */,
+				5B8D2E7A233D89760010D5C2 /* Sources */,
+				5B8D2E7B233D89760010D5C2 /* Frameworks */,
+				5B8D2E7C233D89760010D5C2 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				5B48230322D999BA0056991F /* PBXTargetDependency */,
+				5B8D2E84233D89760010D5C2 /* PBXTargetDependency */,
 			);
 			name = OutPutKeeperTests;
 			productName = OutPutKeeperTests;
-			productReference = 5B48230122D999BA0056991F /* OutPutKeeperTests.xctest */;
+			productReference = 5B8D2E7E233D89760010D5C2 /* OutPutKeeperTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -611,7 +586,7 @@
 					5B4822EC22D999B80056991F = {
 						CreatedOnToolsVersion = 10.2.1;
 					};
-					5B48230022D999BA0056991F = {
+					5B8D2E7D233D89760010D5C2 = {
 						CreatedOnToolsVersion = 10.2.1;
 						TestTargetID = 5B4822EC22D999B80056991F;
 					};
@@ -631,7 +606,7 @@
 			projectRoot = "";
 			targets = (
 				5B4822EC22D999B80056991F /* OutPutKeeper */,
-				5B48230022D999BA0056991F /* OutPutKeeperTests */,
+				5B8D2E7D233D89760010D5C2 /* OutPutKeeperTests */,
 			);
 		};
 /* End PBXProject section */
@@ -648,11 +623,10 @@
 				5B48232122D9C2080056991F /* LoginViewController.storyboard in Resources */,
 				5B4822F822D999BA0056991F /* Assets.xcassets in Resources */,
 				5B4822F622D999B80056991F /* LaunchViewController.storyboard in Resources */,
-				5B2D6B86233D237700588F14 /* GoogleMaps.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5B4822FF22D999BA0056991F /* Resources */ = {
+		5B8D2E7C233D89760010D5C2 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -662,28 +636,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		54248798A5EB962A2DD662E6 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-OutPutKeeperTests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
 		5B2D6B62233D1B8A00588F14 /* Carthage */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -721,23 +673,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "if which \"${PODS_ROOT}/SwiftLint/swiftlint\" >/dev/null; then\nswiftlint autocorrect --format\nswiftlint\nelse\necho \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
-		};
-		B46D57AD8F640BE3581FF058 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-OutPutKeeperTests/Pods-OutPutKeeperTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-OutPutKeeperTests/Pods-OutPutKeeperTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-OutPutKeeperTests/Pods-OutPutKeeperTests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -778,21 +713,21 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5B4822FD22D999BA0056991F /* Sources */ = {
+		5B8D2E7A233D89760010D5C2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5B48230622D999BA0056991F /* OutPutKeeperTests.swift in Sources */,
+				5B8D2E81233D89760010D5C2 /* OutPutKeeperTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		5B48230322D999BA0056991F /* PBXTargetDependency */ = {
+		5B8D2E84233D89760010D5C2 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 5B4822EC22D999B80056991F /* OutPutKeeper */;
-			targetProxy = 5B48230222D999BA0056991F /* PBXContainerItemProxy */;
+			targetProxy = 5B8D2E83233D89760010D5C2 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -872,6 +807,7 @@
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "-ObjC";
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -927,6 +863,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
+				OTHER_LDFLAGS = "-ObjC";
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
@@ -954,9 +891,10 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = com.IichiroKawashima.OutPutKeeper;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "personal development provisioning Profiles";
+				PROVISIONING_PROFILE_SPECIFIER = Wildcard;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -981,22 +919,24 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = com.IichiroKawashima.OutPutKeeper;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "personal development provisioning Profiles";
+				PROVISIONING_PROFILE_SPECIFIER = Wildcard;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
-		5B48230E22D999BA0056991F /* Debug */ = {
+		5B8D2E86233D89760010D5C2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = PGP7B8YQAS;
 				INFOPLIST_FILE = OutPutKeeperTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -1010,14 +950,15 @@
 			};
 			name = Debug;
 		};
-		5B48230F22D999BA0056991F /* Release */ = {
+		5B8D2E87233D89760010D5C2 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = PGP7B8YQAS;
 				INFOPLIST_FILE = OutPutKeeperTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -1052,11 +993,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5B48230D22D999BA0056991F /* Build configuration list for PBXNativeTarget "OutPutKeeperTests" */ = {
+		5B8D2E85233D89760010D5C2 /* Build configuration list for PBXNativeTarget "OutPutKeeperTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5B48230E22D999BA0056991F /* Debug */,
-				5B48230F22D999BA0056991F /* Release */,
+				5B8D2E86233D89760010D5C2 /* Debug */,
+				5B8D2E87233D89760010D5C2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
