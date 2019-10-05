@@ -15,6 +15,10 @@ GoogleMapsBase.framework
 GoogleMaps.framework
 GoogleMapsCore.framework
 
+## Fabric/crashrytics
+Fabric.framework
+Crashlytics.framework
+
 ## Various settings
 *.pbxuser
 !default.pbxuser
